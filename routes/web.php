@@ -15,4 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+    
 });
+Route::get('contact', function () {
+    return view('contact');
+    
+});
+Route::get('band', function () {
+    return view('band');
+    
+});
+Route::get('tour', function () {
+    return view('tour');
+    
+});
+
+
