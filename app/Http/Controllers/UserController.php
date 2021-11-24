@@ -14,4 +14,18 @@ class UserController extends Controller
 
         
     }
+    public function index1()
+    {
+
+        return view('band');
+
+        
+    }
+    public function index11()
+    {
+
+        return view('tour');
+
+        
+    }
 }

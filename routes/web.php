@@ -13,18 +13,15 @@ use App\Http\Controllers\UserController;
 |
 */
 Route::get('/contact', [UserController::class, 'index']);
+
 Route::get('/', function () {
     return view('welcome');
     
 });
+Route::get('/band', [UserController::class, 'index1']);
 
-Route::get('band', function () {
-    return view('band');
+Route::get('/tour', [UserController::class, 'index11']);
+
     
-});
-Route::get('tour', function () {
-    return view('tour');
-    
-});
 
 
